@@ -111,6 +111,20 @@ export const skills = [
   level: 70,
   },
 
+  {
+  icon: "bi bi-gear",
+  name: "cPanel",
+  desc: "Mengelola hosting, domain, dan deployment website.",
+  level: 75,
+  },
+
+  {
+  icon: "bi bi-figma",
+  name: "Figma",
+  desc: "Merancang desain UI/UX dan prototype antarmuka web sederhana.",
+  level: 70,
+  },
+
 ];
 
 export const projects = [
