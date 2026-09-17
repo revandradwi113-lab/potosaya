@@ -33,7 +33,7 @@ export default function Hero() {
               <a href="#projects" className="btn btn-primary-custom px-4 py-3">
                 Lihat Proyek →
               </a>
-              <a href="#contact" className="btn btn-outline-light px-4 py-3">
+              <a href="https://batik-png.vercel.app/" className="btn btn-outline-light px-4 py-3">
                 Hubungi Saya
               </a>
             </div>
