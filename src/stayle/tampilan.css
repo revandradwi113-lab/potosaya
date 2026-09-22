@@ -451,8 +451,8 @@ section {
 }
 
 .cert-thumbnail {
-  width: 100%;
-  height: 220px;
+  width: 350%;
+  height: 300px;
   object-fit: cover;
   display: block;
 }
