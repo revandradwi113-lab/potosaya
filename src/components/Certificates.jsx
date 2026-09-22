@@ -23,9 +23,6 @@ export default function Certificates() {
                     className="cert-thumbnail"
                   />
                 )}
-                <div className="cert-icon">
-                  <i className={`bi ${c.icon}`}></i>
-                </div>
                 <div>
                   <h4 className="h6 mb-1">{c.title}</h4>
                   <p className="text-muted-custom mb-0">
