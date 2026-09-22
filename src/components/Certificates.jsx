@@ -14,7 +14,7 @@ export default function Certificates() {
 
         <div className="row g-3">
           {certificates.map((c) => (
-            <div className="col-md-6" key={c.title}>
+            <div className="col-md-4" key={c.title}>
               <div className="cert-card">
                 {c.image && (
                   <img
@@ -23,11 +23,16 @@ export default function Certificates() {
                     className="cert-thumbnail"
                   />
                 )}
-                <div>
-                  <h4 className="h6 mb-1">{c.title}</h4>
-                  <p className="text-muted-custom mb-0">
-                    {c.issuer} • {c.year}
-                  </p>
+                <div className="cert-body">
+                  <div className="cert-icon">
+                    <i className={`bi ${c.icon}`}></i>
+                  </div>
+                  <div>
+                    <h4 className="h6 mb-1">{c.title}</h4>
+                    <p className="text-muted-custom mb-0">
+                      {c.issuer} • {c.year}
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
