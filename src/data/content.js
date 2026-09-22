@@ -152,6 +152,7 @@ export const certificates = [
     title: "Sertifikat Pratik Kerja Lapangan",
     issuer: "PKL",
     year: "2026",
+    image: "/assets/img/sertivikat.jpeg",
   },
 ];
 

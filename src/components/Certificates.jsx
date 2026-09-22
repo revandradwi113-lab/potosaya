@@ -16,6 +16,13 @@ export default function Certificates() {
           {certificates.map((c) => (
             <div className="col-md-6" key={c.title}>
               <div className="cert-card">
+                {c.image && (
+                  <img
+                    src={c.image}
+                    alt={c.title}
+                    className="cert-thumbnail"
+                  />
+                )}
                 <div className="cert-icon">
                   <i className={`bi ${c.icon}`}></i>
                 </div>
