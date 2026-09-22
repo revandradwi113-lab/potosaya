@@ -148,7 +148,6 @@ export const projects = [
 // TODO: ganti dengan sertifikat/prestasi asli jika sudah ada
 export const certificates = [
   {
-    icon: "bi-patch-check",
     title: "Sertifikat Pratik Kerja Lapangan",
     issuer: "PKL",
     year: "2026",
